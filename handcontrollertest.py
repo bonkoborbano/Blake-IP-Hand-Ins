@@ -1,1 +1,0 @@
-print(f'H1 = {fingers1.count(1)}', end=" ")
