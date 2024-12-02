@@ -20,7 +20,7 @@ detector = HandDetector(staticMode=False, maxHands=1, modelComplexity=1, detecti
 
 # SOCK_STREAM means TCP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host, port = "192.168.1.142", 25001
+host, port = "REPLACE IP HERE", 25001
 
 try:
     # Connect to the server
